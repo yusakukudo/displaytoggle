@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DisplayToggle — Win+P for macOS</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background: #0b0f19;
+        color: #e6e6e6;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 80px 24px;
+        text-align: center;
+    }
+    .headline {
+        font-size: 64px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 24px;
+    }
+    .subtitle {
+        font-size: 20px;
+        color: #9ca3af;
+        margin-bottom: 40px;
+    }
+    .button {
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #2563eb, #4f46e5);
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        transition: all 0.25s ease;
+    }
+    .button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 40px rgba(79, 70, 229, 0.4);
+    }
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 40px;
+        margin-top: 100px;
+        text-align: left;
+    }
+    .feature {
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.05);
+        padding: 28px;
+        border-radius: 18px;
+        backdrop-filter: blur(10px);
+        transition: 0.3s ease;
+    }
+    .feature:hover {
+        transform: translateY(-5px);
+        border-color: rgba(255,255,255,0.15);
+    }
+    .feature h3 {
+        margin-top: 0;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    .section {
+        padding: 120px 24px;
+    }
+    footer {
+        text-align: center;
+        padding: 60px 0;
+        color: #6b7280;
+        font-size: 14px;
+        border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    @media (max-width: 768px) {
+        .headline {
+            font-size: 42px;
+        }
+        .subtitle {
+            font-size: 18px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 class="headline">DisplayToggle</h1>
+
+    <p class="subtitle">
+        The simplest way to switch display modes on macOS.<br>
+        Inspired by Win+P. Built for speed.
+    </p>
+
+    <a href="DisplayToggle-1.0.dmg" class="button">
+        Download for macOS
+    </a>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>Internal Only</h3>
+            <p>Disable external display instantly.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Mirror Displays</h3>
+            <p>Duplicate your screen in one shortcut.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Extend Displays</h3>
+            <p>Clean side-by-side workflow.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Global Shortcut</h3>
+            <p>Trigger from anywhere. No clicks required.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Lightweight</h3>
+            <p>Minimal CPU usage. No background bloat.</p>
+        </div>
+
+        <div class="feature">
+            <h3>No Dependencies</h3>
+            <p>Standalone. No Homebrew required.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+    <h2 style="font-size:36px; font-weight:600; margin-bottom:20px;">
+        Install in seconds
+    </h2>
+    <p style="color:#9ca3af; font-size:18px;">
+        Download → Drag to Applications → Right-click Open (first launch only).
+    </p>
+</div>
+<div class="section" style="text-align:center; padding-top:0;">
+
+    <h2 style="font-size:36px; font-weight:600; margin-bottom:40px;">
+        See It in Action
+    </h2>
+
+    <div style="
+        max-width:900px;
+        margin:0 auto;
+        border-radius:20px;
+        overflow:hidden;
+        box-shadow: 0 40px 80px rgba(0,0,0,0.6);
+        border: 1px solid rgba(255,255,255,0.05);
+    ">
+        <img 
+            src="demo.gif"
+            alt="DisplayToggle Demo"
+            style="width:100%; display:block;"
+        >
+    </div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+    <h2 style="font-size:32px; font-weight:600; margin-bottom:20px;">
+        Designed for simplicity
+    </h2>
+    <p style="color:#9ca3af; max-width:600px; margin:0 auto;">
+        DisplayToggle removes friction from switching display modes on macOS
+        Simple. Fast. Purposeful.
+    </p>
+</div>
+
+<footer>
+    © 2026 DisplayToggle · macOS 13+
+</footer>
+
+</body>
+</html>
