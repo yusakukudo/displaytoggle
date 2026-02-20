@@ -109,28 +109,6 @@ If you find it useful, your support helps keep the project evolving.
 
 Current version: **1.1**
 
-- Improved onboarding
-- Cleaner permission setup
-- Stability improvements
-
-
-
-## 💡 Roadmap
-
-- External Only mode
-- Notarized release
-- Automatic updates
-- Enhanced overlay polish
-
-
-
-## 👨‍💻 Author
-
-Built to solve a real daily workflow problem.
-
-If this project helps you, consider supporting future development.
-
-
 
 ## 📜 License
 
